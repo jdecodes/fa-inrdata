@@ -1,0 +1,3 @@
+pandas>=2.0
+yfinance>=0.2
+sbi-tt-rates>=0.1.0

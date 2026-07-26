@@ -1,0 +1,43 @@
+ticker,name,address,zip,country
+AAPL,Apple Inc.,One Apple Park Way,95014,United States
+ADBE,Adobe Inc.,345 Park Avenue,95110,United States
+ADI,Analog Devices Inc.,One Analog Way,02062,United States
+AKAM,Akamai Technologies Inc.,145 Broadway,02142,United States
+AMAT,Applied Materials Inc.,3050 Bowers Avenue,95054,United States
+AMD,Advanced Micro Devices Inc.,2485 Augustine Drive,95054,United States
+AMZN,Amazon.com Inc.,410 Terry Avenue North,98109,United States
+ANET,Arista Networks Inc.,5453 Great America Parkway,95054,United States
+AVGO,Broadcom Inc.,3421 Hillview Avenue,94304,United States
+CDNS,Cadence Design Systems Inc.,2655 Seely Avenue,95134,United States
+CSCO,Cisco Systems Inc.,170 West Tasman Drive,95134,United States
+CRM,Salesforce Inc.,415 Mission Street,94105,United States
+CRWD,CrowdStrike Holdings Inc.,206 East 9th Street Suite 1400,78701,United States
+CTSH,Cognizant Technology Solutions Corporation,300 Frank W. Burr Boulevard,07666,United States
+DELL,Dell Technologies Inc.,One Dell Way,78682,United States
+GDDY,GoDaddy Inc.,2155 East GoDaddy Way,85284,United States
+GFS,GlobalFoundries Inc.,400 Stonebreak Road Extension,12020,United States
+GOOG,Alphabet Inc.,1600 Amphitheatre Parkway,94043,United States
+GOOGL,Alphabet Inc.,1600 Amphitheatre Parkway,94043,United States
+HPE,Hewlett Packard Enterprise Company,1701 East Mossy Oaks Road,77389,United States
+IBM,International Business Machines Corporation,One New Orchard Road,10504,United States
+INTC,Intel Corporation,2200 Mission College Boulevard,95054,United States
+INTU,Intuit Inc.,2700 Coast Avenue,94043,United States
+MCHP,Microchip Technology Incorporated,2355 West Chandler Boulevard,85224,United States
+MDB,MongoDB Inc.,1633 Broadway,10019,United States
+META,Meta Platforms Inc.,1 Meta Way,94025,United States
+MRVL,Marvell Technology Inc.,5488 Marvell Lane,95054,United States
+MSFT,Microsoft Corporation,One Microsoft Way,98052,United States
+MU,Micron Technology Inc.,8000 South Federal Way,83716,United States
+NET,Cloudflare Inc.,101 Townsend Street,94107,United States
+NFLX,Netflix Inc.,121 Albright Way,95032,United States
+NOW,ServiceNow Inc.,2225 Lawson Lane,95054,United States
+NVDA,NVIDIA Corporation,2788 San Tomas Expressway,95051,United States
+NXPI,NXP Semiconductors N.V.,6501 William Cannon Drive West,78735,United States
+ORCL,Oracle Corporation,2300 Oracle Way,78741,United States
+PANW,Palo Alto Networks Inc.,3000 Tannery Way,95054,United States
+PYPL,PayPal Holdings Inc.,2211 North First Street,95131,United States
+QCOM,QUALCOMM Incorporated,5775 Morehouse Drive,92121,United States
+SNPS,Synopsys Inc.,675 Almanor Avenue,94085,United States
+TEAM,Atlassian Corporation,350 Bush Street Floor 13,94104,United States
+UBER,Uber Technologies Inc.,1725 3rd Street,94158,United States
+WDAY,Workday Inc.,6110 Stoneridge Mall Road,94588,United States
