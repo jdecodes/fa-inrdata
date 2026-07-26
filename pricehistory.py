@@ -11,7 +11,24 @@ import os
 import pandas as pd
 import yfinance as yf
 from sbi_tt_rates import get_rate
+import json
+from pathlib import Path
+import datetime
 
+MANIFEST_PATH = Path("manifest.json")
+
+def update_manifest(ticker: str, year: int, manifest_path: Path = MANIFEST_PATH) -> None:
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text())
+    else:
+        manifest = {"generated_at": None, "tickers": {}}
+
+    years = set(manifest["tickers"].get(ticker, []))
+    years.add(year)
+    manifest["tickers"][ticker] = sorted(years)
+    manifest["generated_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+    manifest_path.write_text(json.dumps(manifest, indent=2, sort_keys=True))
 
 def fetch_yahoo_prices(ticker: str, year: int) -> pd.DataFrame:
     """
@@ -96,7 +113,7 @@ def build_year_file(
     os.makedirs(ticker_dir, exist_ok=True)
 
     prices.to_csv(out_path, index=False)
-
+    update_manifest(ticker, year)
     print(f"[wrote] {out_path} ({len(prices)} rows)")
 
     return out_path
