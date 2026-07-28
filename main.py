@@ -2,6 +2,7 @@ import argparse
 
 from pricehistory import build_year_file
 from ticker_parser import load_tickers
+from dividends import build_dividend_history
 import time
 
 def main() -> None:
@@ -21,6 +22,7 @@ def main() -> None:
 
     tickers = load_tickers()
     failed_tickers = []
+    failed_dividends = []
     for ticker in tickers:
         symbol = ticker["ticker"]
         start_time = time.time()
@@ -34,12 +36,22 @@ def main() -> None:
             failed_tickers.append(symbol)
             continue
 
+        start_div_time = time.time()
+        try:
+            build_dividend_history(ticker=symbol, year=args.year)
+            end_div_time = time.time()
+            print(f"[generated] dividend of {symbol} in {end_div_time - start_div_time} seconds")
+        except Exception as ex:
+            print(f"[DIVIDEND FAILED] for {symbol}: {ex}")
+            failed_dividends.append(symbol)
+
     print("\nGeneration completed.")
     if failed_tickers:
-        print("\nSkipped tickers:")
-        for symbol in failed_tickers:
-            print(f"  - {symbol}")
-
+        print(f"Price history Skipped tickers: {len(failed_tickers) / {len(tickers)}}")
+        print(f"{failed_tickers}")
+    if failed_dividends:
+        print(f"Dividend Skipped tickers: {len(failed_tickers) / {len(tickers)}}")
+        print(f"{failed_dividends}")
 
 if __name__ == "__main__":
     main()

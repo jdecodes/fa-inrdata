@@ -1,0 +1,28 @@
+{
+  "2025": [
+    {
+      "record_date": "2025-03-14",
+      "payment_date": "2025-03-26",
+      "dividend_per_share": 0.525,
+      "dividend_per_share_inr": 44.78
+    },
+    {
+      "record_date": "2025-06-16",
+      "payment_date": "2025-06-26",
+      "dividend_per_share": 0.525,
+      "dividend_per_share_inr": 44.78
+    },
+    {
+      "record_date": "2025-09-22",
+      "payment_date": "2025-09-29",
+      "dividend_per_share": 0.525,
+      "dividend_per_share_inr": 46.33
+    },
+    {
+      "record_date": "2025-12-15",
+      "payment_date": "2025-12-23",
+      "dividend_per_share": 0.525,
+      "dividend_per_share_inr": 46.86
+    }
+  ]
+}
