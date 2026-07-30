@@ -1,4 +1,30 @@
 {
+  "2022": [
+    {
+      "record_date": "2022-01-10",
+      "payment_date": "2022-01-18",
+      "dividend_per_share": 0.68,
+      "dividend_per_share_inr": 50.29
+    },
+    {
+      "record_date": "2022-04-11",
+      "payment_date": "2022-04-18",
+      "dividend_per_share": 0.68,
+      "dividend_per_share_inr": 51.68
+    },
+    {
+      "record_date": "2022-07-11",
+      "payment_date": "2022-07-18",
+      "dividend_per_share": 0.68,
+      "dividend_per_share_inr": 53.99
+    },
+    {
+      "record_date": "2022-10-10",
+      "payment_date": "2022-10-18",
+      "dividend_per_share": 0.78,
+      "dividend_per_share_inr": 63.8
+    }
+  ],
   "2023": [
     {
       "record_date": "2023-01-10",
