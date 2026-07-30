@@ -1,4 +1,30 @@
 {
+  "2024": [
+    {
+      "record_date": "2024-02-20",
+      "payment_date": "2024-02-28",
+      "dividend_per_share": 0.3,
+      "dividend_per_share_inr": 24.75
+    },
+    {
+      "record_date": "2024-05-20",
+      "payment_date": "2024-05-29",
+      "dividend_per_share": 0.3,
+      "dividend_per_share_inr": 24.85
+    },
+    {
+      "record_date": "2024-08-20",
+      "payment_date": "2024-08-28",
+      "dividend_per_share": 0.3,
+      "dividend_per_share_inr": 25.06
+    },
+    {
+      "record_date": "2024-11-19",
+      "payment_date": "2024-11-27",
+      "dividend_per_share": 0.3,
+      "dividend_per_share_inr": 25.2
+    }
+  ],
   "2025": [
     {
       "record_date": "2025-02-18",
